@@ -39,7 +39,7 @@ class updateNote : AppCompatActivity() {
         }
 
         binding.backbtn.setOnClickListener{
-            val intent = Intent(this, AddNote::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

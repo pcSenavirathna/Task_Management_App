@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddNote">
@@ -29,8 +28,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="35dp"
-        android:layout_marginBottom="18dp"
         android:layout_marginEnd="50dp"
+        android:layout_marginBottom="18dp"
         android:text="@string/add_task"
         android:textColor="@color/white"
         android:textSize="35sp" />
@@ -67,14 +66,14 @@
     <EditText
         android:id="@+id/contentEditText"
         android:layout_width="377dp"
-        android:layout_height="214dp"
+        android:layout_height="280dp"
         android:layout_below="@+id/titleEditText"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/blue_boarder"
-        android:backgroundTint="@color/input_color"
+        android:backgroundTint="#A9FFD180"
         android:gravity="top"
         android:hint="@string/enter_the_description"
         android:padding="12dp"
@@ -95,7 +94,6 @@
             app:srcCompat="@drawable/btn" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
 </RelativeLayout>
